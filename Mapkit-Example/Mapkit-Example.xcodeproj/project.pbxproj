@@ -12,6 +12,8 @@
 		169FE49D2AB7209F0030A004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FE49C2AB7209F0030A004 /* ViewController.swift */; };
 		169FE4A22AB720A00030A004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169FE4A12AB720A00030A004 /* Assets.xcassets */; };
 		169FE4A52AB720A00030A004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169FE4A32AB720A00030A004 /* LaunchScreen.storyboard */; };
+		169FE4B02AB74D420030A004 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FE4AF2AB74D420030A004 /* PlaceAnnotation.swift */; };
+		169FE4B32AB74EF60030A004 /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FE4B22AB74EF60030A004 /* CLLocation+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		169FE4A12AB720A00030A004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		169FE4A42AB720A00030A004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		169FE4A62AB720A00030A004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169FE4AF2AB74D420030A004 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		169FE4B22AB74EF60030A004 /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		169FE4972AB7209F0030A004 /* Mapkit-Example */ = {
 			isa = PBXGroup;
 			children = (
+				169FE4B12AB74EE00030A004 /* Extensions */,
+				169FE4AE2AB74D350030A004 /* Annotations */,
 				169FE4982AB7209F0030A004 /* AppDelegate.swift */,
 				169FE49A2AB7209F0030A004 /* SceneDelegate.swift */,
 				169FE49C2AB7209F0030A004 /* ViewController.swift */,
@@ -62,6 +68,22 @@
 				169FE4A62AB720A00030A004 /* Info.plist */,
 			);
 			path = "Mapkit-Example";
+			sourceTree = "<group>";
+		};
+		169FE4AE2AB74D350030A004 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				169FE4AF2AB74D420030A004 /* PlaceAnnotation.swift */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+		169FE4B12AB74EE00030A004 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				169FE4B22AB74EF60030A004 /* CLLocation+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				169FE4B02AB74D420030A004 /* PlaceAnnotation.swift in Sources */,
+				169FE4B32AB74EF60030A004 /* CLLocation+Extensions.swift in Sources */,
 				169FE49D2AB7209F0030A004 /* ViewController.swift in Sources */,
 				169FE4992AB7209F0030A004 /* AppDelegate.swift in Sources */,
 				169FE49B2AB7209F0030A004 /* SceneDelegate.swift in Sources */,
